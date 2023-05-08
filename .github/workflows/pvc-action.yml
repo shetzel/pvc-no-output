@@ -1,0 +1,10 @@
+name: PVC Repo
+run-name: package version create repro
+on: [push]
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "authing with org"
+      - run: echo "creating package"
+      - run: echo "creating package version"

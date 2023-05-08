@@ -2,11 +2,21 @@
   "packageDirectories": [
     {
       "path": "force-app",
-      "default": true
+      "default": true,
+      "package": "pkg7.199.7",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "versionDescription": ""
     }
   ],
   "name": "pvc-no-output",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "57.0"
+  "sourceApiVersion": "57.0",
+  "packageAliases": {
+    "pkg7.199.7": "0HoB0000000TODUKA4",
+    "pkg7.199.7@0.1.0-1": "04tB0000000R3SvIAK",
+    "pkg7.199.7@0.1.0-2": "04tB0000000R3T0IAK",
+    "pkg7.199.7@0.1.0-3": "04tB0000000R3T5IAK"
+  }
 }
